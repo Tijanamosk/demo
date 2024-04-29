@@ -15,7 +15,7 @@ import eng.demo.inv.generic.model.CarDriver;
 
 @RestController
 @RequestMapping("/api/cardriver")
-@CrossOrigin(origins = {"http://localhost:4200", "https://demo-angular-ui.azurewebsites.net"})
+@CrossOrigin(origins = {"http://localhost:4200", "https://demo-angular-ui.azurewebsites.net/#/"})
 public class CarDriverController extends GenericController<CarDriver> {
 
 	public CarDriverController(GenericRepository<CarDriver> genericRepository) {
