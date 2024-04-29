@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:sqlserver://demoserverspring.database.windows.net:1433;database=demoDb;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
+    username: spring123
+    password: spring!123
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+      dialect: org.hibernate.dialect.SQLServerDialect
+      
+      
+server:
+  port: 8089
+  
