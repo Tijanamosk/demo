@@ -15,7 +15,7 @@ import eng.demo.inv.generic.model.AppUser;
 
 @RestController
 @RequestMapping("/api/user")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = {"http://localhost:4200", "https://demo-angular-ui.azurewebsites.net"})
 public class AppUserControler extends GenericController<AppUser> {
 
 	public AppUserControler(GenericRepository<AppUser> genericRepository) {
